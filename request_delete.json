@@ -1,0 +1,54 @@
+{
+    "protoPayload": 
+    {
+        "status": {}, 
+        "authenticationInfo": 
+        {
+            "principalEmail": "masood.bashamaq@searce.com"
+        },
+        "requestMetadata": 
+        {
+            "callerIp": "103.211.61.217", 
+            "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36,gzip(gfe),gzip(gfe)", 
+            "requestAttributes": 
+            {
+                "time": "2022-04-15T12:11:48.533661951Z", 
+                "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw", 
+                "auth": {}
+            }, 
+            "destinationAttributes": {}
+        }, 
+        "serviceName": "storage.googleapis.com", 
+        "methodName": "storage.objects.delete", 
+        "authorizationInfo": 
+        [
+            {
+                "resource": "projects/_/buckets/masood-mumbai-2/objects/11.txt", 
+                "permission": "storage.objects.delete", 
+                "granted": true, 
+                "resourceAttributes": {}
+            }
+        ], 
+        "resourceName": "projects/_/buckets/masood-mumbai-2/objects/11.txt", 
+        "serviceData": {}, 
+        "resourceLocation": 
+        {
+            "currentLocations": ["asia-south1"]
+        }
+    }, 
+    "insertId": "-7hnht7e2p158", 
+    "resource": 
+    {
+        "type": "gcs_bucket", 
+        "labels": 
+        {
+            "project_id": "searce-playground-v1", 
+            "bucket_name": "masood-mumbai-2", 
+            "location": "asia-south1"
+        }
+    }, 
+    "timestamp": "2022-04-15T12:11:48.529661945Z", 
+    "severity": "INFO", 
+    "logName": "projects/searce-playground-v1/logs/cloudaudit.googleapis.com%2Fdata_access", 
+    "receiveTimestamp": "2022-04-15T12:11:49.361995666Z"
+}
